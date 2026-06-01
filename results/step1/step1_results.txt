@@ -1,1 +1,4 @@
-
+Simulation Time: 30 s
+Final Speed: 85 m/s
+Distance Travelled: 1570 m
+Model Type: Basic Longitudinal Dynamics
