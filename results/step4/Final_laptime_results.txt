@@ -1,1 +1,27 @@
+Advanced Vehicle Dynamics Simulator Results
 
+Track Length = 1235.62 m
+
+Average Speed = 39.91 m/s
+Average Speed = 143.66 km/h
+
+Maximum Straight Speed = 88.13 m/s
+Maximum Straight Speed = 317.26 km/h
+
+Total Straight Length = 1000.00 m
+
+Straight Time = 22.36 s
+
+Corner Time = 8.61 s
+
+Estimated Lap Time = 30.96 s
+
+Corner 1
+Radius = 50 m
+Gradient = 5 deg
+Corner Speed = 22.10 m/s
+
+Corner 2
+Radius = 100 m
+Gradient = 10 deg
+Corner Speed = 31.08 m/s
