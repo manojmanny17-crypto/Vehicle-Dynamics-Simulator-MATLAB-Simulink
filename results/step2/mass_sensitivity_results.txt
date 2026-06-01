@@ -1,1 +1,10 @@
+Mass Sensitivity Study
 
+Vehicle Mass (kg)    Lap Time (s)
+---------------------------------
+700                  22.3
+800                  23.0
+900                  24.2
+
+Observation:
+Increasing vehicle mass increases lap time due to reduced acceleration performance.
