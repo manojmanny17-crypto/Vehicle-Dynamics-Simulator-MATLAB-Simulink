@@ -1,47 +1,94 @@
 # MATLAB/Simulink Vehicle Dynamics Simulator
 
-A MATLAB/Simulink vehicle dynamics simulator developed incrementally from a basic longitudinal vehicle model to a telemetry-enabled lap time simulator.
+A MATLAB/Simulink vehicle dynamics simulator developed through a progressive modelling approach, starting from a basic longitudinal dynamics model and evolving into a telemetry-enabled lap time simulator. The project investigates vehicle performance, aerodynamic effects, track characteristics, gearbox behaviour and braking strategies using MATLAB and Simulink.
 
-## Step 1 – Basic Longitudinal Vehicle Model
+## Project Development
 
-Implemented Newton's second law to model vehicle acceleration under constant drive force. Vehicle speed and distance were obtained through numerical integration.
+### Step 1 – Basic Longitudinal Vehicle Dynamics
 
-### Figures
+Developed a fundamental vehicle dynamics model based on Newton's Second Law. Vehicle acceleration, speed and distance were obtained through numerical integration in Simulink.
+
+**Figures**
 
 * step1_speed_distance_response.png
 * step1_model.png
 
-### Results
+**Results**
 
 * step1_results.txt
 
 ---
 
-## Step 2 – Parameter Sensitivity Analysis
+### Step 2 – Vehicle Parameter Sensitivity Analysis
 
-Performed sensitivity studies to investigate the influence of aerodynamic drag coefficient and vehicle mass on lap time performance.
+Conducted sensitivity studies to evaluate the impact of vehicle mass and aerodynamic drag on overall performance and lap time.
 
-### Figures
+**Figures**
 
 * step2_drag_sensitivity.png
 * step2_mass_sensitivity.png
 
-### Results
+**Results**
 
 * drag_sensitivity_results.txt
 * mass_sensitivity_results.txt
 
 ---
 
-## Step 3 – Gearbox Modelling
+### Step 3 – Track Modelling and Lap Time Analysis
 
-Implemented a multi-stage gearbox using Simulink switching logic. Drive force changes with vehicle speed to emulate gear shifts and realistic acceleration behaviour.
+Extended the model to include road gradients, corner speed estimation, grip sensitivity analysis, track comparison studies and lap time segmentation.
+
+**Figures**
+
+* road_gradient_study.png
+* grip_sensitivity.png
+* track_comparison.png
+* speed_vs_distance.png
+
+**Results**
+
+* gradient_results.txt
+* grip_sensitivity_results.txt
+* track_comparison_results.txt
 
 ---
 
-## Step 4 – Advanced Vehicle Dynamics and Lap Time Simulation
+### Step 4 – Advanced Vehicle Dynamics Simulator
 
-Extended the model with road gradients, corner speed constraints, braking zones, telemetry monitoring and lap time estimation.
+Implemented a multi-gear transmission system, dual braking zones and a telemetry dashboard for real-time monitoring of vehicle behaviour. The final model combines vehicle dynamics, braking logic, gearbox control and lap time estimation into a complete racing simulator.
+
+**Figures**
+
+* telemetry_dashboard.png
+* gearbox_force_profile.png
+* brake_zone_response.png
+* drive_force_profile.png
+
+**Results**
+
+* final_laptime_results.txt
+
+---
+
+## Tools and Technologies
+
+* MATLAB
+* Simulink
+
+## Key Features
+
+* Longitudinal vehicle dynamics modelling
+* Aerodynamic drag analysis
+* Vehicle mass sensitivity studies
+* Road gradient modelling
+* Corner speed estimation
+* Grip sensitivity analysis
+* Track comparison and lap time studies
+* Multi-gear transmission modelling
+* Dual braking zone implementation
+* Telemetry dashboard development
+* Lap time estimation and performance evaluation
 
 ---
 
